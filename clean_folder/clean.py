@@ -175,4 +175,4 @@ def main() -> None:
     remove_folder(MAIN_DIR)
 
 
-main()
+

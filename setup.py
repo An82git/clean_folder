@@ -7,5 +7,7 @@ setup(
     url='https://github.com/An82git/clean_folder.git',
     author='An82git',
     license='MIT',
-    packages=find_namespace_packages()
+    packages=find_namespace_packages(),
+    install_requires=['shutil', 'pathlib', 'sys', 're'],
+    entry_points={'console_scripts': ['clean-folder = clean-folder.clean:main']}
     )
